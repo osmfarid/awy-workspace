@@ -7,7 +7,7 @@ profile
 *.sublime-workspace
 # ignore packages	
 node_modules
-bower_components
+static
 # ignore generated files and folders
 *.log
 *.html
