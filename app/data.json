@@ -1,0 +1,12 @@
+{
+	"images": [
+		{
+			"src": "image-one.png",
+			"alt": "Image one alt texter"
+		},
+		{
+			"src": "image-two.png",
+			"alt": "Image two alt text"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+	<h1>This is index</h1>
+	<!--	Importing	Nunjucks	Macro	-->
+	{% import 'macros/nav-macro.njk' as nav %}
+	{{nav.active('home')}}
+
+	<div class="gallery">
+		<!-- Loops through "images" array -->
+		{% for image in images %}
+		<div class="gallery__item">
+			<img src="{{image.src}}" alt="{{image.alt}}">
+		</div>
+		{% endfor %}
+</div>
+
+
+{% endblock %}
